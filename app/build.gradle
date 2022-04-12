@@ -1,15 +1,9 @@
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-}
+apply from: "../../component_config/lib_config/base_gradle.gradle"
 
 android {
-    compileSdk 31
 
     defaultConfig {
-        applicationId "com.gh.component_core"
-        minSdk 21
-        targetSdk 31
+        applicationId "com.gh.demo_core"
         versionCode 1
         versionName "1.0"
 
@@ -22,17 +16,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+
 }
 
 dependencies {
 
-    implementation project(':lib_core')
+    implementation "com.gh.android:lib_core"
 
 }

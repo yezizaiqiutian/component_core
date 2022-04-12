@@ -16,7 +16,7 @@ final public class ActivityManager {
 
     private static ActivityManager instance;
 
-    private static ActivityManager getInstance() {
+    public static ActivityManager getInstance() {
         if (null == instance) {
             instance = new ActivityManager();
             activityManager = new Stack<>();
