@@ -9,7 +9,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.wawj.core.baseui.BaseViewModel
 import java.lang.reflect.ParameterizedType
 
 /**

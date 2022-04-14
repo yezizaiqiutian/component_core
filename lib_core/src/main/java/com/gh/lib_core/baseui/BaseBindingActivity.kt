@@ -9,7 +9,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.alibaba.android.arouter.launcher.ARouter
 import com.gh.lib_core.utils.ActivityManager
-import com.wawj.core.baseui.BaseViewModel
 import java.lang.reflect.ParameterizedType
 
 

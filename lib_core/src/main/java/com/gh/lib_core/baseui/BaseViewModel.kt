@@ -1,4 +1,4 @@
-package com.wawj.core.baseui
+package com.gh.lib_core.baseui
 
 import androidx.lifecycle.ViewModel
 
