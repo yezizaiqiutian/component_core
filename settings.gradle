@@ -1,1 +1,2 @@
 apply from: '../component_config/lib_config/base_settings.gradle'
+rootProject.name = "component_core"
